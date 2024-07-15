@@ -16,7 +16,7 @@ If you want a further explanation about the paper, please refer to this [`link`]
 
 
 
-If you want the implementation by using jupyter notebook, please refer to this [`link`](https://github.com/eric98040/VAE-Pytorch/blob/main/VAE.ipynb)
+If you want the pytorch implementation using jupyter notebook, please refer to this [`link`](https://github.com/eric98040/VAE-Pytorch/blob/main/VAE.ipynb)
 
 
 

@@ -9,6 +9,16 @@
 
 3) Even if the target does not have binary values of 0 or 1, but has values between [0, 1], BCE Loss can be used
 
+</br>
+
+
+If you want a further explanation about the paper, please refer to this [`link`](https://www.jaewon.work/paper-preview-vae-auto-encoding-variational-bayes-2/)
+
+
+
+If you want the implementation by using jupyter notebook, please refer to this [`link`](https://github.com/eric98040/VAE-Pytorch/blob/main/VAE.ipynb)
+
+
 
 ## Features
 

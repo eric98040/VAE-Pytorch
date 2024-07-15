@@ -1,10 +1,14 @@
 # Variational AutoEncoder (VAE) Implementation
 
-> VAE를 구현하면서 중요하게 생각한 point들은 다음과 같다.
->
-1) cuda tensor에서 numpy array 변환 시 오류: loss function, reparameterize 함수 안의 numpy를 torch.exp() or .pow() 등으로 변환
-2) Decoder output을 x_hat만 반환할 경우 loss function 계산시 어려우므로 중간 단계인 Encoder에서 나온 output까지 같이 반환
-3) 0 또는 1의 binary value를 target이 가지고 있는 binary classification 문제가 아니어도 [0, 1] 사이의 value를 가질 경우 BCE Loss 사용이 가능
+> Key points considered during the implementation of VAE are:
+
+
+1) Error when converting from cuda tensor to numpy array: Convert numpy to torch.exp() or .pow() in the loss function and reparameterize function
+
+2) When only returning x_hat from the Decoder, it is difficult to calculate the loss function, so return the output from the Encoder along with the intermediate steps
+
+3) Even if the target does not have binary values of 0 or 1, but has values between [0, 1], BCE Loss can be used
+
 
 ## Features
 

@@ -58,6 +58,23 @@
 - `requirements.txt`: List of required packages
 - `README.md`: Project documentation
 
+
+```sh
+vae-project/
+│
+├── vae/
+│   ├── __init__.py
+│   ├── model.py
+│   └── utils.py
+│
+├── train.py
+├── evaluate.py
+├── requirements.txt
+└── README.md
+
+```
+  
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
